@@ -41,3 +41,14 @@ body{
 .guess:hover{
     background-color: rgb(216, 221, 226);
 }
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.pop, .result{
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+    height: 20px;
+}
