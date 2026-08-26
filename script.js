@@ -9,16 +9,16 @@ guess.addEventListener("click", function(){
         const q = Number(num.value);
         num.value = "";
         if(q > w){
-            result.textContent = "Меньше нафик"
+            result.textContent = "Меньше"
             attems++
             pop.textContent = `Попыток: ${attems}`
         }else if(q < w){
-            result.textContent = "Больше нафик"
+            result.textContent = "Больше"
             attems++;
             pop.textContent = `Попыток: ${attems}`
         }else{
-            result.textContent = "Угадал сука"
-            pop.textContent = `Красава, справился за ${attems} попыток`
+            result.textContent = "Угадал"
+            pop.textContent = `Справился за ${attems} попыток`
         }
 })
 
